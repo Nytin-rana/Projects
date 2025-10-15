@@ -20,7 +20,7 @@ body {
 }
 .computer img,
 .player img {
-  width: 35vw;
+  width: 25vw;
 }
 .shakeComputer {
   animation: shakeComputer 0.8s linear;
@@ -95,3 +95,4 @@ body {
   }
 
 }
+
