@@ -13,7 +13,7 @@ options.forEach((option) => {
       computer.classList.remove("shakeComputer");
       player.classList.remove("shakePlayer");
 
-      player.src = "./" + option.innerHTML + "Player.png";
+      player.src = "./" + option.innerHTML.toLowerCase() + "Player.png";
 
       const choice = ["stone", "paper", "scissors"];
       let arrayNo = Math.floor(Math.random() * 3);
@@ -43,5 +43,6 @@ options.forEach((option) => {
   });
 
 });
+
 
 
