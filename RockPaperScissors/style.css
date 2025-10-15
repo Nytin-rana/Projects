@@ -20,7 +20,7 @@ body {
 }
 .computer img,
 .player img {
-  width: 50%;
+  width: 35vw;
 }
 .shakeComputer {
   animation: shakeComputer 0.8s linear;
@@ -93,4 +93,5 @@ body {
   100% {
     transform: rotate(0deg);
   }
+
 }
