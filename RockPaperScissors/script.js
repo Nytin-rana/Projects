@@ -23,12 +23,12 @@ options.forEach((option) => {
       let cPoints = parseInt(computerPoints.innerHTML);
       let pPoints = parseInt(playerPoints.innerHTML);
 
-      if (option.innerHTML === "stone") {
+      if (option.innerHTML === "STONE") {
         if (computerChoice === "paper")
           computerPoints.innerHTML = cPoints + 1;
         else if (computerChoice === "scissors")
           playerPoints.innerHTML = pPoints + 1;
-      } else if (option.innerHTML === "paper") {
+      } else if (option.innerHTML === "PAPER") {
         if (computerChoice === "scissors")
           computerPoints.innerHTML = cPoints + 1;
         else if (computerChoice === "stone")
@@ -43,6 +43,7 @@ options.forEach((option) => {
   });
 
 });
+
 
 
 
